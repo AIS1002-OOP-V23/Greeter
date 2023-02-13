@@ -3,6 +3,6 @@
 
 #include <iostream>
 
-void Greeter::greet() {
+void Greeter::greet() const {
     std::cout << "Hello " << name_ << "!" << std::endl;
 }
