@@ -9,7 +9,7 @@ class Greeter {
 public:
     explicit Greeter(const std::string &name) : name_(name) {}
 
-    void greet();
+    void greet() const;
 
 private:
     std::string name_;
